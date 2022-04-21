@@ -1,0 +1,28 @@
+/**************************************
+ TITLE: registration.css
+ AUTHOR: Christian Heatherly (CH)
+ CREATE DATE: 04/19/2022
+ PURPOSE: Allow users to register to vote on our system
+ LAST MODIFIED ON: 04/19/2022
+ LAST MODIFIED BY: Christian Heatherly (CH)	
+ MODIFICATION HISTORY:
+    04/19/2022: Creation date (CH)
+ SOURCES:
+    https://stackoverflow.com/a/51056768 (Helped with fixing button border)
+
+***************************************/
+
+body {
+    margin-top: 15%;
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif; /*Taken from a previous project in another class*/
+}
+
+button {
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 120, 255);
+    color: white;
+    border: none;
+}
