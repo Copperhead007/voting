@@ -1,0 +1,69 @@
+<!--
+	TITLE: Registration page
+	AUTHOR: Christian Heatherly
+	PURPOSE: Allow users to register as a voter.
+	ORIGINALLY CREATED ON: 04/18/2022
+	LAST MODIFIED ON: 04/20/2022
+	LAST MODIFIED BY: Christian Heatherly (CH)
+	MODIFICATION HISTORY: 
+		04/18/2022: Create date (CH)
+        04/20/2022: Added notice that SQL was unable to get working (CH)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="registration.css">
+
+        <title>Voter Registration</title>
+
+        <!-- Loading jQuery -->
+        <script src="jquery.js"></script>
+
+        <!-- Loading external JS file -->
+        <script src="registration.js"></script>
+    </head>
+
+    <body>
+        <div id="backButton">
+            <button href="homePage.html">Back</button>
+        </div>
+        
+        <div id="registerDiv">
+            <form id="registerForm">
+
+                <h3 style="color:red;">Note: We tried to get a database working but we could not get PHP to work on Tesla. This forced us to have to use JSON which we cannot write to.
+                        Therefore, we have populated our JSON file with test users to allow you to log in and use those accounts to test the voting system.
+                        All of the logic is there for our registration page but we cannot use anything with the databases because Tesla does not support PHP files.
+                        For a list of all test user logins, please see the JSON file attached in our ZIP file on Canvas.</h3>
+
+                <!-- Used this link to help get the different input types https://www.w3schools.com/html/html_form_input_types.asp -->
+
+                <h3>Register to vote below</h3><br>
+    
+                <label for="voterName">Name:</label>
+                <input id="voterName" type="text" style="width:9%" placeholder="Type your full name here..." autofocus required>
+    
+                <br><br>
+    
+                <label for="voterPass">Passphrase:</label>
+                <input id="voterPass" type="password" style="width:12%" placeholder="Type your desired passphrase here..." required>
+    
+                <br><br>
+    
+                <label for="voterDOB">Date of Birth:</label>
+                <input id="voterDOB" type="date" required>
+    
+                <br><br>
+    
+                <button id="submitBtn" type="submit">Register now!</button>
+            </form>
+        </div>
+
+        <div id="finishedDiv">
+            <h1 style="color:green">Thank you for registering to vote. Please visit our homepage for more information on how to vote.</h1>
+            <a href="homePage.html">Click Here</a>
+        </div>
+    </body>
+</html>
