@@ -1,0 +1,34 @@
+{
+ box-sizing: border-box;
+}
+
+container {
+ border-radius: 5px;
+ background-color: lightgreen;
+ padding: 20px;
+ border: 1px solid blue;
+}
+
+h2{
+color: black'
+font-size: 12px;
+}
+
+hr {
+ color: black;
+ background-color: #fff;
+ height: 2px;
+ width: 100%;
+}
+input[type=submit] {
+        background-color: grey;
+        color: #fff;
+        padding: 15px 30px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+body {
+ background-color: lightblue;
+}
