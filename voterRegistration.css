@@ -1,0 +1,62 @@
+/*
+TITLE: voterRegistration.css
+AUTHOR: Caelan Priddy
+ORIGINALLY CREATED ON: 03/25/2022
+PURPOSE: Voter Registration stylization
+LAST MODIFIED ON: 03/25/2022
+LAST MODIFIED BY: Caelan Priddy
+MODIFICATION HISTORY:
+March 25th 2022 - Original Build stylization
+*/
+{
+	margin : 0 0 6px;
+}
+header {
+text-align : left;
+color : white;
+background-color : #134;
+padding : 30px 150px;
+}
+body {
+	background-color : orange;	/*	Use the Color Picker to find the hex code of your favorite color
+									http://www.w3schools.com/tags/ref_colorpicker.asp */
+}
+body p {
+	padding-left : 2em;
+}
+li, li a{						/* Define the formatting for the links to the labs */
+	list-style : none;
+	background-color : #43ABA4;
+	text-align : center;
+	color : white;
+	border-radius : 3px;
+	padding : 2px;
+}
+h2{
+	width : 100%;
+	color : #1E6E68;
+	line-height : 40px;
+}
+h3{
+	color : #1E6E68;
+	line-height : 30px;
+	text-align : center;
+}
+#pages{			/* Define the formatting for the <div id="asssignments"> box */
+	width : 720px;
+	margin : 0 auto;
+	box-shadow : 0 2px 15px #EEE;
+	min-height : 300px;
+	padding : 15px;
+	border-radius : 10px;
+	background-color : white;
+}
+#pages ul {
+	float : left;
+	width : 300px;
+}
+hr{
+	margin : 10px 0;
+	width : 100%;
+	float : left;
+}
