@@ -1,0 +1,12 @@
+[
+    {
+        "name": "testuser1",
+        "pass": "testpassword1",
+        "dob": "04-22-2022"
+    },
+    {
+        "name": "testuser2",
+        "pass": "testpassword2",
+        "dob": "03-01-2022"
+    }
+]
